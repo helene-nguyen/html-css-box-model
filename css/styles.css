@@ -1,0 +1,230 @@
+/*** MAIN SELECTORS ***/
+html {
+    --black: #000;
+    --red: #8b0000;
+    --grey: #eee;
+    --white: #fff;
+    --police: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: var(--grey);
+    font-family: sans-serif;
+}
+
+h2 {
+    /* font-style */
+    font-weight: bold;
+    font-family: var(--police);
+    font-size: 1.5em;
+    /* display */
+    text-align: center;
+    /* box-model */
+    padding: 2em 0;
+}
+
+h3 {
+    /* font-style */
+    font-family: var(--police);
+    font-weight: bold;
+    color: var(--red);
+    /* display */
+    text-align: center;
+}
+
+img {
+    /* display */
+    display: block;
+    /* box-model */
+    margin: auto;
+}
+
+#container {
+    /* display */
+    background-color: var(--white);
+    width: 80%;
+    /* box-model */
+    margin: 2em auto;
+    padding-bottom: 1em;
+    
+}
+
+/*** LINK ***/
+
+a {
+    /* font-style */
+    color: var(--red);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    /* display */
+    display: block;
+    background-color: var(--grey);
+    border-radius: 30px;
+    /* box-model */
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+}
+
+
+/*** HEADER ***/
+
+.logo {
+    /* box-model */
+    margin: auto;
+    padding: 1em 0;
+
+}
+
+.title {
+    /* font-style */
+    font-family: var(--police);
+    font-weight: 600;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    /* display */
+    display: inline;
+
+}
+
+.serie {
+    /* font-style */
+    color: var(--white);
+    font-family: var(--police);
+    font-size: 0.75em;
+    font-weight: bold;
+    letter-spacing: 0.10em;
+    /* display */
+    display: inline;
+    background-color: var(--black);
+    /* box-model */
+    padding: 0.5em;
+}
+
+.line {
+    /* display */
+    text-align: center;
+    border-top: 1.75px solid var(--red);
+    border-bottom: 1.75px solid var(--red);
+    /* box-model */
+    margin: 0 1em;
+    padding : 1em 0;
+    
+}
+
+/*** MAIN ***/
+
+#presentation {
+    /* display */
+    background-color: var(--grey);
+    margin: 1em 5em;
+}
+
+.mini-logo {
+    /* display */
+    width: 5em;
+    display: block;
+    /* box-model */
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.text {
+    /* box-model */
+    margin: 0 2em;
+    padding-bottom: 1rem;
+}
+
+.presentation {
+    /* font-style */
+    font-size: 0.80em;
+    /* display */
+    border-bottom: 1px solid var(--black);
+    text-align: justify;
+    /* box-model */
+    padding-bottom: 1em;
+
+    
+}
+ span {
+     /* font-style */
+     font-weight: 600;
+ }
+
+ .info-saisons {
+     /* font-style */
+     font-size: 0.60em;
+     font-style: italic;
+     /* display */
+     text-align: center;
+     /* box-model */
+     padding: 1em 0;
+ }
+
+.synopsis {
+    /* box-model */
+    padding: 1em 0;
+}
+
+.synopsis-txt {
+    /* font-style */
+    font-size: 0.8em;
+    /* display */
+    text-align: justify;
+    /* box-model */
+    padding-bottom: 1em;
+}
+
+#acteurs {
+    /* display */
+    text-align: center;
+}
+
+.link {
+    /* display */
+    
+    /* box-model */
+    margin: 1em 5em;
+}
+
+.vignette {
+    /* display */
+    text-align: center;
+    border: 0.25px solid var(--grey);
+    width: 32%;
+    /* box-model */
+    margin: 0 auto 1em;
+    padding: 0.8em;
+
+}
+
+.img-vignette {
+    width: 100%;
+}
+
+h3.vign-title {
+    /* box-model */
+    margin: 1em 0;
+}
+
+.vign-txt {
+    /* font*/
+    font-size: 0.8em;
+}
+
+/*** FOOTER ***/
+
+.footer {
+    /* font-style */
+    font-size: 0.8em;
+    /* display */
+    background-color: var(--grey);
+    text-align: center;
+    margin: 2em 1em 0;
+    padding: 2em;
+}
+
+.footer-txt {
+        /* box-model */
+        padding: 2em 0 5em;    
+}
